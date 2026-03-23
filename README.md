@@ -20,21 +20,26 @@ Construir uma API capaz de analisar dados de partidas e gerar previsões estatí
 
 ---
 
+## 🧠 Estrutura do projeto
+
+O projeto segue arquitetura em camadas:
+
+- **Controller:** responsável por receber as requisições HTTP  
+- **Service:** onde estão as regras de negócio  
+- **Repository:** responsável pela comunicação com o banco de dados  
+
+---
+
 ## ⚙️ Funcionalidades
 
 - Cadastro e gerenciamento de equipes  
 - Integração com API externa de dados esportivos  
 - Processamento estatístico utilizando distribuição de Poisson  
-- Estrutura em arquitetura em camadas (controller, service, repository)  
 
 ---
 
-## 📌 Status do projeto
+## ▶️ Como executar o projeto
 
-Em evolução, com novas funcionalidades sendo adicionadas.
-
----
-
-## 🔗 Repositório
-
-https://github.com/darleimota/sport-predict
+1. Clone o repositório:
+```bash
+git clone https://github.com/darleimota/sport-predict
