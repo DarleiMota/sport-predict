@@ -20,6 +20,16 @@ Construir uma API capaz de analisar dados de partidas e gerar previsões estatí
 
 ---
 
+## 📊 Análise de Dados
+
+O projeto utiliza dados de partidas para aplicação de modelos estatísticos, com foco em:
+
+- Probabilidade de ocorrência de eventos (gols)  
+- Interpretação de dados históricos  
+- Uso de distribuição de Poisson para modelagem preditiva  
+
+---
+
 ## ⚙️ Funcionalidades
 
 - Cadastro e gerenciamento de equipes  
